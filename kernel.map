@@ -1,0 +1,32 @@
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 build/led01-blink.o
+
+Memory map
+
+ ** file header
+                0x00007000       0x34
+ ** segment headers
+                0x00007034       0x60
+
+.init           0x00008000       0x48
+ .init          0xffffffffffffffff       0x48 build/led01-blink.o
+                0x00008000                _start
+
+.text           0x00008048        0x0
+ .text          0x00008048        0x0 build/led01-blink.o
+
+.data           0x00008048        0x0
+ .data          0x00008048        0x0 build/led01-blink.o
+
+.symtab         0x00000000       0x70
+ ** symtab      0x00000000       0x70
+
+.strtab         0x00000000       0x23
+ ** string table
+                0x00000000       0x23
+
+.shstrtab       0x00000000       0x2d
+ ** string table
+                0x00000000       0x2d
